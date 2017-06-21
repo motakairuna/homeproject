@@ -1,0 +1,23 @@
+div{
+    display: inline-block;
+    margin:20px;
+}
+h2{ color:red;}
+.picture>img{
+    height:100%;
+    width:100%;
+    
+}
+#home>img{
+    height:200px;
+    width:200px;
+}
+.mywork>img{
+    height:100px;
+    width:100p}
+ .icon>img
+    { 
+    height:50px;
+    width:50px;
+}
+h1{color:blue;}
