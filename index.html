@@ -2,29 +2,46 @@
 <html lang="uk">
     <head>
         <meta charset="utf-8">
-        <title> Homeproject</title>
+        <title>Homeproject</title>
+        <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli|Patrick+Hand+SC" rel="stylesheet">
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-         <img src="colordrop.jpg" alt="colordrop">
-         <nav>
-             <ul class="nav">
-                 <li><a href="#home">Головна</a></li>
-                 <li><a href="#project">Проекти</a></li>
-                 <li><a href="#callback">Зворотній зв'язок</a></li>
-                 <li><a href="#contucts">Контакти</a></li>
-             </ul>  
-         </nav>
-       
-     <main>
-         <div class="picture">
-             <img src="ventilation.jpg" alt="systemventilation">
-         </div>
-        <section id="home">
-            <h2>Історичний нарис</h2>
-             <img src="fan.jpg" alt="fan">
-         <article><h4>
-             Окремі прийоми організованої вентиляції закритих приміщень застосовувалися ще в старовині. Вентиляція приміщень до початку XIX століття зводилася, як правило, до природного провітрювання. 
+        <nav>
+            <ul class="main-menu">
+                <li>
+                    <a href="#home">Головна</a>
+                </li>
+                <li>
+                    <a href="#project">Проекти</a>
+                </li>
+                <li>
+                    <a href="#callback">Зворотній зв'язок</a>
+                </li>
+                <li>
+                    <a href="#contacts">Контакти</a>
+                    <ul class="sub-menu">
+                        <li>тел: +380670000000
+                     </li>
+                        <li>емейл: 12365@123654
+                     </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Сучасні інженерні системи.</h1>
+            <h2>Система вентиляції</h2>
+            <div class="picture">
+                <img src="image/ventilation.jpg" alt="Система вентиляції">
+            </div>
+            <section>
+                <h2>Історичний нарис</h2>
+                <article id="home">
+                    <h4>Окремі прийоми організованої вентиляції закритих приміщень застосовувалися ще в старовині. Вентиляція приміщень до початку XIX століття зводилася, як правило, до природного провітрювання. 
              Теорію природного руху повітря в каналах і трубах створив М. В. Ломоносов. У 1795 В. X.
              Фрібе вперше виклав основні положення, що визначають інтенсивність повітрообміну в опалювальному приміщенні крізь нещільність зовнішніх огорож, дверні отвори і вікна, поклавши цим початок вченню про нейтральну зону.
              На початку XIX століття отримує розвиток вентиляція з тепловою спонукою подавання й видаляння з приміщення повітря. 
@@ -33,55 +50,80 @@
              У 1835 цей вентилятор був застосований для провітрювання Чагирської копальні на Алтаї. Саблуков запропонував його також для вентиляції приміщень, трюмів кораблів, для прискорення сушки, випаровування і т. д. 
              Широке розповсюдження вентиляції з механічною спонукою руху повітря почалося з кінця XIX століття.
              </h4>
-         </article>
-         </section>
-         <section id="project">
-             <h2>Проекти</h2>
-         <div class="mywork">
-         <img src="project.jpg" alt="work" >
-         </div>
-          <div class="mywork">
-         <img src="project.jpg" alt="work" >
-         </div>
-          <div class="mywork">
-         <img src="project.jpg" alt="work" >
-         </div>
-          <div class="mywork">
-         <img src="project.jpg" alt="work" >
-         </div>
-          <div class="mywork">
-         <img src="project.jpg" alt="work">
-         </div>
-          <div class="mywork">
-         <img src="project.jpg" alt="work" >
-         </div>
-         </section>
-         <siction id="callback">
-          <h2>
-          Зворотній зв'язок
-         </h2>
-          <form action="https://formspree.io/motakairuna@gmail.com" method="POST">
-           <lable>
-            <input type="text" name="username" placeholder="Name">
-           </lable><br>
-            <lable>
-            <input type="email" name="email" placeholder="Email">
-           </lable><br>
-            <h3>
-             Відгуки
-            </h3>
-            <textarea name="reviews" id="reviews" rows="5" cols="20">відгуки</textarea><br>
-            <lable>
-            <input type="submit" name="submit" value="Send">
-           </lable>
-          </form>
-         </siction>
-     </main>
-     <footer>
-      <h2 id="contucts">Контакти</h2>
-      <span class="icon"><img src="email.png" alt="email" >motakairuna@gmail.com<br></span>
-      <span class="icon"><img src="house.jpg" alt="adress">м. Львів,вул. Садова 2а.<br></span>
-      <span class="icon"><img src="phone1.jpg" alt="phone">+380670000000<br></span>
-     </footer>
+                </article>
+            </section>
+            <section id="project">
+                <h2>Проекти</h2>
+                <div class="mywork">
+                    <a href="project1.html">
+                        <img src="image/ventilation.jpg" alt="робота">
+                    </a>
+                </div>
+                <div class="mywork">
+                    <a href="project1.html">
+                        <img src="image/2.png" alt="робота">
+                    </a>
+                </div>
+                <div class="mywork">
+                    <a href="project1.html">
+                        <img src="image/project.jpg" alt="робота">
+                    </a>
+                </div>
+                <div class="mywork">
+                    <a href="project1.html">
+                        <img src="image/project.jpg" alt="робота">
+                    </a>
+                </div>
+            </section>
+            <section id="callback">
+                <form action="https://formspree.io/motakairuna@gmail.com" method="POST">
+                    <fieldset>
+                        <legend>
+                            <h2>Зворотній зв'язок</h2>
+                        </legend>
+                        <label>
+                            <input type="text" name="username" placeholder="Ім'я">
+                        </label>
+                        <br>
+                        <label>
+                            <input type="email" name="email" placeholder="Емейл">
+                        </label>
+                        <br>
+                        <label>
+                            <input type="phone" name="phone" placeholder="Телефон">
+                        </label>
+                        <br>
+                        <h3>Відгуки</h3>
+                        <textarea name="reviews" id="reviews" rows="5" cols="20">Відгуки</textarea>
+                        <br>
+                        <label>
+                            <input type="submit" name="submit" value="Відправити">
+                        </label>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+             <h2>Контакти</h2>
+              <div id="footer-menu" >    
+                 <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2574.0522343686252!2d23.97847902708332!3d49.82268345072791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x473ae770a5e9e49f%3A0x72857e0836d543c3!2z0LLRg9C70LjRhtGPINCh0LDQtNC-0LLQsCwgMtCwLCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDc5MDAw!3m2!1d49.8225978!2d23.9836371!4m5!1s0x473ae76ffb1f24ad%3A0x60ae14b524466a6a!2z0YPQuy4g0K_QstC-0YDQvdC40YbQutC-0LPQviwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!3m2!1d49.823980999999996!2d23.976722!5e0!3m2!1sru!2sua!4v1498495320257" frameborder="0" style="border:0" width='500' allowfullscreen></iframe>
+              </div>
+              <div id="contacts">
+                <span class="icon">
+                    <img src="image/email.png" alt="email">
+                    motakairuna@gmail.com<br>
+                </span>
+                <span class="icon">
+                    <img src="image/house.jpg" alt="адреса">
+                    м. Львів,вул. Садова 2а.<br>
+                </span>
+                <span class="icon">
+                    <img src="image/phone1.jpg" alt="телефон">
+                    +380670000000<br>
+                </span>
+              </div>
+             </div>
+        </footer>
     </body>
 </html>
