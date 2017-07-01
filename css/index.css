@@ -1,8 +1,16 @@
-
 body{
-   max-width:1000px;
-    margin: 0 auto;
+margin:0;
+  background-image:url(/image/background1.jpg); 
+  background-repeat:repeat;
+  background-attachment: fixed;
+  background-origin: border-box;
+
 } 
+ body>#main-body{ max-width:1000px;
+    margin: 0 auto;
+    background-color:white;
+ 
+ }
 
 h1{ font-family: 'Patrick Hand SC', cursive;
     text-align:center;
@@ -60,8 +68,9 @@ a:hover{
     width:100%;
 }
 article{
-   width:100%;
-   font-family: 'Patrick Hand SC', cursive;
+    margin:10px ;
+    width:99%;
+    font-family: 'Patrick Hand SC', cursive;
 }
 .mywork{
     display:inline;
@@ -87,9 +96,9 @@ a>.myproject:hover {
 }
 input{
    width:700px;
-   padding:30px;
+   padding:20px;
     font-family: 'Patrick Hand SC', cursive;
-    font-size:20px;
+    font-size:30px;
     opacity:0.6
     z-index:1;
     align-self:center;
@@ -112,6 +121,9 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: rgba(220, 83, 99, 0.1);
 }
+textarea{
+    margin-left:22px;
+}
 .icon>img{
     height:50px;
     width:50px;
@@ -133,6 +145,9 @@ input[type="submit"]:hover{
     margin-top: 50px;
  
 }
+#map{
+    margin-left:10px;
+}
 
 .footer-submenu{
    
@@ -149,8 +164,10 @@ width:1000px;
   font-size:20px;
   
 }
-
-
+.image-gym>img{
+    width:99%;
+    margin:10px auto;
+}
 
 
 
