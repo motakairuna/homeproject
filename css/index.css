@@ -44,7 +44,7 @@ h3 {
 }
 
 nav {
-    background-color: rgba(94, 111, 163, 0.3);
+    background-color: rgba(94, 111, 163, 0.6);
     margin: 0 auto;
     padding: 10px;
 }
@@ -79,12 +79,7 @@ a {
     font-size: 20px;
     padding: 10px;
     text-decoration: none;
-    text-shadow: 1px 1px 2px black, 0 0 10px red;
     cursor: auto;
-}
-
-a:hover {
-    color: yellow;
 }
 
 .picture>img {
@@ -114,13 +109,14 @@ a>.myproject:hover {
     transform: scale(2);
 }
 
-#callback {
-    display: flex;
-    justify-content: center;
-    margin: 50px 0;
-}
+ fieldset {
+      margin-left:200px;
+        width: 70%;
+        border-color:gray;
+    }
 
 input {
+    border-radius: 30%;
     width: 650px;
     padding: 20px;
     font-family: 'Patrick Hand SC', cursive;
@@ -140,16 +136,19 @@ input[type="submit"] {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(220,98,31,0.7);
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 200px;
     margin-top: 30px;
+    width:50%;
 }
 
 input[type="submit"]:hover {
     background-color: rgba(220, 83, 99, 0.1);
+    
 }
 
 textarea {
-    margin-left: 22px;
+    margin-left: 100px;
+      width: 70%;
 }
 
 .icon>img {

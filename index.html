@@ -15,7 +15,7 @@
       <div id="main-body">
         <nav>
             <ul class="main-menu">
-                <li>
+                 <li>
                     <a href="#home">Головна</a>
                 </li>
                 <li>
@@ -79,28 +79,28 @@
                 </div>
             </section>
             <section id="callback">
-                <form action="https://formspree.io/motakairuna@gmail.com" method="POST">
+                <form>
                     <fieldset>
                         <legend>
                             <h2>Зворотній зв'язок</h2>
                         </legend>
-                        <label>
-                            <input type="text" name="username" placeholder="Ім'я">
+                        <label> 
+                            <input type="text" id="client-name" name="client-name" placeholder="Ім'я">
                         </label>
                         <br>
                         <label>
-                            <input type="email" name="email" placeholder="Емейл">
+                            <input type="email" id="client-email" name="client-email" placeholder="Емейл">
                         </label>
                         <br>
                         <label>
-                            <input type="tel" name="usrtel" placeholder="Телефон" >
+                            <input type="tel" id="client-tel" name="client-tel" placeholder="Телефон" >
                         </label>
                         <br>
                         <h3>Відгуки</h3>
-                        <textarea name="reviews" id="reviews" rows="5" cols="50"><p>Відгуки</p></textarea>
+                        <textarea name="comment" id="comment" name="comment" rows="5" cols="30">Відгуки</textarea>
                         <br>
                         <label>
-                            <input type="submit" name="submit" value="Відправити">
+                            <input type="submit" id="btn-send" value="Відправити">
                         </label>
                     </fieldset>
                 </form>
@@ -133,6 +133,11 @@
                   <p><i><b>by Motaka Iruna @ 2017</b></i></p>
              </div>
         </footer>
-      </div>    
+      </div>
+      <script
+         src="https://code.jquery.com/jquery-3.2.1.min.js"
+         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+         crossorigin="anonymous"></script>
+      <script src="js/form.js"></script>
     </body>
 </html>
