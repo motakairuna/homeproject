@@ -101,7 +101,10 @@ a>.myproject {
     height: 200px;
     width: 200px;
     border: 1px solid;
-    border-radius: 50%;
+    border-radius: 20%;
+    margin-left:20px;
+    margin-top:30px;
+    margin-bottom:30px;
 }
 
 a>.myproject:hover {
@@ -148,7 +151,8 @@ input[type="submit"]:hover {
 
 textarea {
     margin-left: 100px;
-      width: 70%;
+      width: 70%; 
+      padding:30px;
 }
 
 .icon>img {
@@ -190,23 +194,18 @@ textarea {
     font-size: 20px;
 }
 
-@media screen and (max-device-width: 480px) {
-    body {
-        max-width:1000px;
-        margin: 0 auto;
-        background: white;
-    }
+@media screen and (max-device-width: 400px) {
 
     h1 {
-        font-size: 50px;
+        font-size: 70px;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     h3 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     nav {
@@ -222,19 +221,31 @@ textarea {
     a>.myproject {
         display: flex;
         flex-wrap: wrap;
-        height: 300px;
-        width: 300px;
-    }
+        flex-direction:column;
+        height: 600px;
+        width: 600px;
+    
+    border-radius: 20%;
+}
+li{
+    display: flex;
+      flex-direction:row;
+}
+li>a{
+    font-size:40px;
+}
+    
 
     fieldset {
         border: none;
-        width: 100%;
     }
-
+ #home{
+     display:none;
+ }
     input textarea {
         width: 100%;
-        padding: 30px;
-        font-size: 40px;
+        padding: 40px;
+        font-size: 50px;
     }
 
     #footer-menu {
@@ -257,7 +268,7 @@ textarea {
         margin-left: 200px;
     }
 }
-}
+
 
 .image-gym>img {
     width: 99%;
