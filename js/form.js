@@ -1,6 +1,6 @@
 // JavaScript File
 $(function(){
-    $('#btn-send').click(senfForm);
+    $('#btn-send').click(sendForm);
 });
 
 

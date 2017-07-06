@@ -61,6 +61,9 @@ article{
     font-family: 'Patrick Hand SC', cursive;
 }
 
+fieldset{
+    margin-left:200px;
+}
 }
 #callback{
     display:flex;
@@ -82,7 +85,7 @@ article{
     height: 64px;
     z-index: 10;
     opacity: .65;
-    background: url(../images/scroll-up.svg) no-repeat;
+    background: url(../images/arrow-up.svg) no-repeat;
 }
 
 .scrollUp:hover {
