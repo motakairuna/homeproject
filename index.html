@@ -9,43 +9,70 @@
         <link href="https://fonts.googleapis.com/css?family=Muli|Patrick+Hand+SC" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-      <div id="main-body">
-        <nav>
-            <ul class="main-menu">
-                 <li>
-                    <a href="#home">Головна</a>
-                </li>
-                <li>
-                    <a href="#project">Проекти</a>
-                </li>
-                <li>
-                    <a href="#callback">Зворотній зв'язок</a>
-                </li>
-                <li>
-                    <a href="#contacts">Контакти</a>
-                    <ul class="sub-menu">
-                        <li>тел: +380670000000
-                     </li>
-                        <li>емейл: 12365@123654
-                     </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <main>
-            <h1>Сучасні інженерні системи.</h1>
-            <h2>Система вентиляції</h2>
-            <div class="picture">
-                <img src="image/ventilation.jpg" alt="Система вентиляції">
-            </div>
-            <section>
-               
-                <article id="home">
-                    <h2>Історичний нарис</h2>
-                    <p >Окремі прийоми організованої вентиляції закритих приміщень застосовувалися ще в старовині. Вентиляція приміщень до початку XIX століття зводилася, як правило, до природного провітрювання. 
+        <div id="main-body">
+            <nav class="navbar navbar-default">
+                <div>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Berezhna Iryna</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#home">
+                                    <span class="glyphicon glyphicon-home"></span>
+                                    Головна
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project">
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                    Проекти
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#callback">
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                    Зворотній зв'язок
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contacts">
+                                    <span class="glyphicon glyphicon-phone-alt"></span>
+                                    Контакти
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#footer-menu" class="smooth">
+                                    <span class="glyphicon glyphicon-arrow-down"></span>
+                                    До низу
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <main>
+                <h1>Сучасні інженерні системи.</h1>
+                <h2>Система вентиляції</h2>
+                <div class="picture">
+                    <img src="image/ventilation.jpg" alt="Система вентиляції">
+                </div>
+                <section>
+                    <article id="home">
+                        <h2>Історичний нарис</h2>
+                        <p>Окремі прийоми організованої вентиляції закритих приміщень застосовувалися ще в старовині. Вентиляція приміщень до початку XIX століття зводилася, як правило, до природного провітрювання. 
              Теорію природного руху повітря в каналах і трубах створив М. В. Ломоносов. У 1795 В. X.
              Фрібе вперше виклав основні положення, що визначаютьінтенсивність повітрообміну в опалювальному приміщенні крізь нещільність зовнішніх огорож, дверні отвори і вікна, поклавши цим початок вченню про нейтральну зону.
              На початку XIX століття отримує розвиток вентиляція з тепловою спонукою подавання й видаляння з приміщення повітря. 
@@ -54,91 +81,99 @@
              У 1835 цей вентилятор був застосований для провітрювання Чагирської копальні на Алтаї. Саблуков запропонував його також для вентиляції приміщень, трюмів кораблів, для прискорення сушки, випаровування і т. д. 
              Широке розповсюдження вентиляції з механічною спонукою руху повітря почалося з кінця XIX століття.
                     </p>
-                </article>
-            </section>
-            <section id="project">
-                <h2>Проекти</h2>
-                <div class="mywork">
-                    <a href="project-gym.html">
-                        <img src="image/gym.png" alt="робота" class="myproject">
-                    </a>
+                    </article>
+                </section>
+                <section id="project">
+                    <h2>Проекти</h2>
+                    <div class="mywork">
+                        <div class="jumbotron">
+                            <div id="my-carousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="image/gym.png" alt="Система опалення спортзалу">
+                                    </div>
+                                    <div class="item">
+                                        <img src="image/gym.png" alt="Grumpy">
+                                    </div>
+                                    <div class="item">
+                                        <img src="image/gym.png" alt="Grumpy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <section id="callback">
+                    <form>
+                        <fieldset>
+                            <legend>
+                                <h2>Зворотній зв'язок</h2>
+                            </legend>
+                            <label>
+                                <input type="text" id="client-name" name="client-name" placeholder="Ім'я">
+                            </label>
+                            <br>
+                            <label>
+                                <input type="email" id="client-email" name="client-email" placeholder="Емейл">
+                            </label>
+                            <br>
+                            <label>
+                                <input type="tel" id="client-tel" name="client-tel" placeholder="Телефон">
+                            </label>
+                            <br>
+                            <h3>Відгуки</h3>
+                            <textarea name="comment" id="comment" name="comment">Відгуки</textarea>
+                            <br>
+                            <label>
+                                <input type="submit" id="btn-send" value="Відправити">
+                            </label>
+                        </fieldset>
+                    </form>
+                </section>
+            </main>
+            <h2>Контакти</h2>
+            <div id="footer-menu">
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2574.0522343686252!2d23.97847902708332!3d49.82268345072791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x473ae770a5e9e49f%3A0x72857e0836d543c3!2z0LLRg9C70LjRhtGPINCh0LDQtNC-0LLQsCwgMtCwLCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDc5MDAw!3m2!1d49.8225978!2d23.9836371!4m5!1s0x473ae76ffb1f24ad%3A0x60ae14b524466a6a!2z0YPQuy4g0K_QstC-0YDQvdC40YbQutC-0LPQviwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!3m2!1d49.823980999999996!2d23.976722!5e0!3m2!1sru!2sua!4v1498495320257" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <div class="mywork">
-                    <a href="project1.html">
-                        <img src="image/project.jpg" alt="робота" class="myproject">
-                    </a>
+                <div id="contacts">
+                    <span class="icon">
+                        <img src="image/email.png" alt="email">
+                        motakairuna@gmail.com<br>
+                    </span>
+                    <span class="icon">
+                        <img src="image/house.jpg" alt="адреса">
+                        м. Львів,вул. Садова 2а.<br>
+                    </span>
+                    <span class="icon">
+                        <img src="image/phone1.jpg" alt="телефон">
+                        +380670000000<br>
+                    </span>
                 </div>
-                <div class="mywork">
-                    <a href="project1.html">
-                        <img src="image/project.jpg" alt="робота" class="myproject">
-                    </a>
+            </div>
+            <div>
+             <a href="#" class="scrollUp"></a>
+            </div>
+            <footer>
+                <div class="footer-submenu">
+                    <p>
+                        <i>
+                            <b>by Berezhna Iruna @ 2017</b>
+                        </i>
+                    </p>
                 </div>
-                <div class="mywork">
-                    <a href="project1.html">
-                        <img src="image/project.jpg" alt="робота" class="myproject">
-                    </a>
-                </div>
-            </section>
-            <section id="callback">
-                <form>
-                    <fieldset>
-                        <legend>
-                            <h2>Зворотній зв'язок</h2>
-                        </legend>
-                        <label> 
-                            <input type="text" id="client-name" name="client-name" placeholder="Ім'я">
-                        </label>
-                        <br>
-                        <label>
-                            <input type="email" id="client-email" name="client-email" placeholder="Емейл">
-                        </label>
-                        <br>
-                        <label>
-                            <input type="tel" id="client-tel" name="client-tel" placeholder="Телефон" >
-                        </label>
-                        <br>
-                        <h3>Відгуки</h3>
-                        <textarea name="comment" id="comment" name="comment" >Відгуки</textarea>
-                        <br>
-                        <label>
-                            <input type="submit" id="btn-send" value="Відправити">
-                        </label>
-                    </fieldset>
-                </form>
-            </section>
-        </main>
-        <footer>
-             <h2>Контакти</h2>
-              <div id="footer-menu" >    
-                 <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2574.0522343686252!2d23.97847902708332!3d49.82268345072791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x473ae770a5e9e49f%3A0x72857e0836d543c3!2z0LLRg9C70LjRhtGPINCh0LDQtNC-0LLQsCwgMtCwLCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDc5MDAw!3m2!1d49.8225978!2d23.9836371!4m5!1s0x473ae76ffb1f24ad%3A0x60ae14b524466a6a!2z0YPQuy4g0K_QstC-0YDQvdC40YbQutC-0LPQviwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!3m2!1d49.823980999999996!2d23.976722!5e0!3m2!1sru!2sua!4v1498495320257" frameborder="0" style="border:0" width='500' height="300" allowfullscreen></iframe>
-              </div>
-              <div id="contacts">
-                <span class="icon">
-                    <img src="image/email.png" alt="email">
-                    motakairuna@gmail.com<br>
-                </span>
-                <span class="icon">
-                    <img src="image/house.jpg" alt="адреса">
-                    м. Львів,вул. Садова 2а.<br>
-                </span>
-                <span class="icon">
-                    <img src="image/phone1.jpg" alt="телефон">
-                    +380670000000<br>
-                </span>
-              </div>
-             </div>
-        </footer>
-        <footer>
-            <div class="footer-submenu">
-                  <p><i><b>by Motaka Iruna @ 2017</b></i></p>
-             </div>
-        </footer>
-      </div>
-      <script
-         src="https://code.jquery.com/jquery-3.2.1.min.js"
-         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-         crossorigin="anonymous"></script>
-      <script src="js/form.js"></script>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/smooth-scroll.js"></script>
+        <script src="js/bootstrap-navbar-collapse.js"></script>
+        <script src="js/form.js"></script>
+        <script src="js/go-up-btn.js"></script>
     </body>
 </html>

@@ -1,277 +1,204 @@
-body {
-    margin: 0;
-    height: 100%;
-    position: relative;
-}
+body{
+  margin:0;
+height:100%;
+    position:relative;
 
+
+} 
 body::after {
-    content: "";
-    background-image: url(../image/nut2.jpg);
-    background-attachment: fixed;
-    background-repeat: repeat;
-    height: 100%;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
+  content: "";
+background-image:url(../image/nut2.jpg);
+    background-attachment:fixed;
+    background-repeat:repeat;
+    height:100%;
+  opacity: 0.5;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+
 }
 
-body>#main-body {
-    max-width: 1000px;
+ body>#main-body{
+     max-width:1000px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 100%;
-}
-
-h1 {
-    font-family: 'Patrick Hand SC', cursive;
-    text-align: center;
-    color: blue;
-}
-
-h2 {
-    color: red;
-    text-align: center;
-    font-family: 'Patrick Hand SC', cursive;
-}
-
-h3 {
-    color: red;
-    font-family: 'Muli|Patrick+Hand+SC', cursive;
-}
-
-nav {
-    background-color: rgba(94, 111, 163, 0.6);
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.main-menu .sub-menu {
-    position: absolute;
-    display: none;
-    background-color: rgba(94, 111, 163, 0.6);
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.main-menu>li {
-    display: inline-block;
-    position: relative;
-    list-style: none;
-}
-
-.main-menu>li:hover .sub-menu {
-    position: absolute;
-    display: block;
-    color: white;
-    text-align: center;
-    font-family: 'Patrick Hand SC', cursive;
-    width: 200px;
-    font-size: 20px;
-}
-
-a {
-    color: white;
-    font-family: 'Patrick Hand SC', cursive;
-    font-size: 20px;
-    padding: 10px;
-    text-decoration: none;
-    cursor: auto;
-}
-
-.picture>img {
-    width: 100%;
-}
-
-article {
-    margin: 10px ;
-    width: 95%;
-    font-family: 'Patrick Hand SC', cursive;
-}
-
-.mywork {
-    display: inline;
-    z-index: 2;
-}
-
-a>.myproject {
-    height: 200px;
-    width: 200px;
-    border: 1px solid;
-    border-radius: 20%;
-    margin-left:20px;
-    margin-top:30px;
-    margin-bottom:30px;
-}
-
-a>.myproject:hover {
-    background-color: rgba(43, 79, 88, 0.2);
-    transform: scale(2);
-}
-
- fieldset {
-      margin-left:200px;
-        width: 70%;
-        border-color:gray;
-    }
-
-input {
-    border-radius: 30%;
-    width: 650px;
-    padding: 20px;
-    font-family: 'Patrick Hand SC', cursive;
-    font-size: 30px;
-    opacity: 0.6 z-index:1;
-    align-self: center;
-    margin-top: 30px;
-    background-color: rgba(87, 214, 208, 0.4);
-}
-
-input:hover {
-    background-color: rgba(220, 83, 99, 0.4);
-}
-
-input[type="submit"] {
-    background: gray;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(220,98,31,0.7);
-    font-size: 20px;
-    margin-left: 200px;
-    margin-top: 30px;
-    width:50%;
-}
-
-input[type="submit"]:hover {
-    background-color: rgba(220, 83, 99, 0.1);
-    
-}
-
-textarea {
-    margin-left: 100px;
-      width: 70%; 
-      padding:30px;
-}
-
-.icon>img {
-    height: 50px;
-    width: 50px;
-    padding: 10px;
-}
-
-#footer-menu {
-    height: 300px;
-    display: flex;
-    justify-content: flex-start;
-    align-content: space-around;
-}
-
-#contacts {
-    flex-direction: column;
-    width: 250px;
-    height: 300px;
-    margin-left: 30px;
-    margin-top: 50px;
-}
-
-#map {
-    height: 300px;
-    margin-left: 10px;
-}
-
-.footer-submenu {
-    background-color: rgba(36, 54, 103, 1);
-    width: 99%;
-}
-
-.footer-submenu>p {
-    margin-left: 400px;
-    color: white;
-    font-family: 'Pacifico', cursive;
-    font-stretch: expanded;
-    font-size: 20px;
-}
-
-@media screen and (max-device-width: 400px) {
-
-    h1 {
-        font-size: 70px;
-    }
-
-    h2 {
-        font-size: 60px;
-    }
-
-    h3 {
-        font-size: 40px;
-    }
-
-    nav {
-        margin: 0 auto;
-        padding: 10px;
-    }
-
-    .main-menu>li {
-        padding: 20px;
-        font-size: 40px;
-    }
-
-    a>.myproject {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction:column;
-        height: 600px;
-        width: 600px;
-    
-    border-radius: 20%;
-}
-li{
-    display: flex;
-      flex-direction:row;
-}
-li>a{
-    font-size:40px;
-}
-    
-
-    fieldset {
-        border: none;
-    }
- #home{
-     display:none;
+background-color: rgba(255, 255, 255, 0.7);
+    width:100%;
+ 
  }
-    input textarea {
-        width: 100%;
-        padding: 40px;
-        font-size: 50px;
-    }
 
-    #footer-menu {
-        display: flex;
-        flex-wrap: wrap;
-        height: 800px;
-    }
-
-    #map {
-        height: 400px;
-        width: 100%;
-        align-self: center;
-    }
-
-    #contacts {
-        flex-direction: column;
-    }
-
-    .footer-submenu>p {
-        margin-left: 200px;
-    }
+h1{ font-family: 'Patrick Hand SC', cursive;
+    text-align:center;
+    color:blue;
+}
+h2{ color:red;
+    text-align:center;
+  font-family: 'Patrick Hand SC', cursive;
+}
+h3{ color:red;
+     font-family: 'Muli|Patrick+Hand+SC', cursive;
 }
 
 
-.image-gym>img {
-    width: 99%;
-    margin: 10px auto;
-    border: 1px solid;
+a{ 
+    color:white;
+   font-family: 'Patrick Hand SC', cursive;
+    font-size:20px;
+    padding:10px;
+    text-decoration:none;
+   text-shadow: 1px 1px 2px black, 0 0 10px red;
+   cursor:auto;
 }
+
+.picture>img{
+    width:100%;
+}
+article{
+    margin:10px ;
+    width:99%;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+}
+#callback{
+    display:flex;
+     justify-content:center;
+     margin:50px 0;
+}
+
+.icon>img{
+    height:50px;
+    width:50px;
+    padding:10px;
+}
+.scrollUp {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    width: 64px;
+    height: 64px;
+    z-index: 10;
+    opacity: .65;
+    background: url(../images/scroll-up.svg) no-repeat;
+}
+
+.scrollUp:hover {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+
+#footer-menu{
+    height:300px;
+       display:flex;
+    justify-content:flex-start;
+    align-content:space-around;
+}
+
+#contacts{
+    flex-direction:column;
+    width:250px;
+    height:300px;
+    margin-left:30px;
+    margin-top: 50px;
+ 
+}
+#map{
+    height:300px;
+    margin-left:10px;
+   
+}
+
+.footer-submenu{
+background-color: rgba(36, 54, 103, 1);
+width:99%;
+}
+.footer-submenu>p{
+  margin-left:400px;
+  color:white;
+ font-family: 'Pacifico', cursive;
+  font-stretch: expanded;
+  font-size:20px;
+  
+}
+
+ 
+@media screen and (max-device-width: 480px) {
+     body{ 
+          max-width:1000px;
+          margin:0 auto;
+          background:white;
+        }
+      h1{ font-size:50px;}
+      h2{
+          font-size:40px;
+      }
+      h3{ font-size:30px;}
+      nav{
+          
+          margin:0 auto;
+          padding:10px;
+          }
+     .main-menu>li{
+        
+          padding:20px;
+          font-size:40px;
+          }
+      a>.myproject{
+          display:flex;
+          flex-wrap:wrap;
+          height:300px;
+          width:300px;
+          }
+       fieldset{
+           border:none;
+           width:100%;
+       }
+       
+       input textarea{
+           width:100%;
+           padding:30px;
+           font-size:40px;
+           
+       }
+       #footer-menu{
+           display:flex;
+           flex-wrap:wrap;
+           height:800px;
+       }
+       #map{
+           height:400px;
+           width:100%;
+        
+           align-self:center;
+       }
+      #contakts{
+         flex-direction:column;
+         
+      }
+      .footer-submenu>p{
+  margin-left:200px;
+
+  
+}
+}
+  }
+.image-gym>img{
+    width:99%;
+    margin:10px auto;
+    border:1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
