@@ -64,13 +64,19 @@ article {
 }
 
 
-
+fieldset{
+    border:1px solid grey;
+    padding:100px;
+    
+}
 
 
 input {
     font-family: 'Patrick Hand SC', cursive;
     font-size: 20px;
-    
+    padding:10px;
+    width:100%;
+    font-weight:100;
 }
 
 input:hover {
@@ -94,7 +100,7 @@ input[type="submit"]:hover {
 
 textarea {
     
-      width: 30%; 
+      width: 70%; 
       padding:10px;
 }
 #callback{
