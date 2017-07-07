@@ -143,15 +143,19 @@ width:100%;
 
 .footer-submenu{
 background-color: rgba(36, 54, 103, 1);
-width:99%;
+width:100%;
 }
 .footer-submenu>p{
-  margin-left:400px;
+  margin-left:200px;
   color:white;
  font-family: 'Pacifico', cursive;
   font-stretch: expanded;
   font-size:20px;
   
+}
+#my-carousel img{
+    height:630px;
+    margin:0 auto;
 }
 
  
